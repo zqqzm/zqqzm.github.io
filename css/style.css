@@ -685,7 +685,7 @@ p {
     color:#e5e5e5;
 }
 .list1 li {
-    width: 141px;
+    width: 130px;
     float: left;
     margin-right: 8px;
     position: relative;
@@ -967,7 +967,7 @@ tbody {
     width: 1000px;
     height: 434px;
     padding-top: 20px;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 .tit5 {
     background-position: -1px -612px;
