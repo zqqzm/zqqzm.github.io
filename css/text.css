@@ -1,0 +1,234 @@
+body{
+	font-family: helvetica,arial,'微软雅黑','华文黑体';
+    font-size: 12px;
+    min-height: 305px;
+    min-width: 370px;
+    display: block;
+    margin: 8px;
+    /*overflow:hidden;*/
+}
+    
+.login, .login_no_qlogin {
+    background-color: #ffffff;
+}
+.login, .login_no_qlogin {
+   margin: auto auto;
+    border: 2px solid #eee;
+    height: 100%;
+    position: absolute;
+    z-index: 8888;
+    top: 43px;
+    left: 450px;
+
+}
+.header {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "微软雅黑";
+  	
+
+}
+.header .close {
+    width: 47px;
+    height: 20px;
+    float: right;
+    background: url(../img/icon_3_tiny.png) -221px -126px no-repeat;
+    outline: 0;
+}
+.header .close:hover {
+    background-position: -221px -151px;
+}
+.login a:hover {
+    text-decoration: underline;
+}
+
+.link_tips {
+    color: #3481cf;
+}
+
+.qlogin {
+    height: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -150px auto 0;
+    display: none;
+    width: 100%;
+}
+.title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 16px;
+}
+.bottom.center, .guanjia, .title {
+    text-align: center;
+}
+.loading_tips {
+    text-align: center;
+    height: 24px;
+    top: 10px;
+    left: 50%;
+    margin-left: -28px;
+}
+.error_tips, .loading_tips {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+}
+.qlogin .qlogin_tips {
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 36px;
+    zoom: 1;
+}
+.link_tips {
+    color: #3481cf;
+}
+.qlogin .qlogin_show {
+    height: 200px;
+    margin-left: 35px;
+    margin-right: 35px;
+    overflow: hidden;
+    position: relative;
+}
+.qlogin .qlogin_list {
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+.qlogin .qr_1 {
+    display: inline-block;
+    height: 120px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.qlogin .qr_1 .qrImg {
+    height: 82px;
+    left: 12px;
+    position: absolute;
+    top: 8px;
+    width: 82px;
+    border: 1px solid #D3D3D3;
+}
+.qlogin .qr_1 .qr_mengban, .qlogin .qr_1 .qrlogin_img_out {
+    background: #000;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    filter: Alpha(opacity=40);
+    opacity: .4;
+    z-index: 1000;
+}
+.qlogin .qr_1 .qr_invalid_tips {
+    color: #FFF;
+    cursor: pointer;
+    left: 12px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    width: 85px;
+    z-index: 1000;
+}
+.qlogin .face {
+    height: 120px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    outline: 0;
+}
+.qlogin .face, .qlogin .nextRow, .qlogin .preRow {
+    display: inline-block;
+    cursor: pointer;
+}
+.qlogin .face img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    border: none;
+}
+.qlogin .face .uin, .qlogin .face .uin_menban {
+    display: none;
+}
+.qlogin .face .img_out_focus, .qlogin .face:hover .img_out {
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: url(../img/icon_3_tiny.png) -91px -183px no-repeat;
+   
+}
+.qlogin .face .img_out_focus, .qlogin .face:hover .uin {
+    display:block;
+   
+}
+.qlogin .face .img_out {
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background: url(../img/icon_3_tiny.png) 0 -182px no-repeat;
+}
+.qlogin .face .nick {
+    top: 100px;
+}
+.qlogin .face .nick, .qlogin_list .return {
+    display: inline-block;
+    text-align: center;
+    left: 0;
+    height: 20px;
+    line-height: 18px;
+    width: 100%;
+    color: #6f7479;
+    font-family: Tahoma,Verdana,Arial,sans-serif;
+    position: absolute;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.authLogin, .hide {
+    display: none;
+}
+.uin{
+	position: absolute;
+    top: 71px;
+    left: 14px;
+    background: #39393980;
+    width: 70px;
+    height: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+.bottom {
+    height: 16px;
+    margin-bottom: 8px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    font-size: 12px;
+}
+.bottom, .qlogin .nextPage {
+    right: 10px 
+}
+.bottom .link {
+    color: #666;
+}
+.bottom .dotted {
+    color: #bfbfbf;
+    margin: 0 5px;
+}
+.bottom a:hover {
+     text-decoration: underline; 
+}
